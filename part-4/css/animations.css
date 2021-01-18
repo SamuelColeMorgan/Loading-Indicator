@@ -1,0 +1,63 @@
+/* dot-one animation for page loader */
+
+@keyframes dot-one-loader-animation {
+    0% {
+        transform: rotate(0deg) translate(-500%);
+    }
+    50% {
+        transform: rotate(180deg) translate(-500%);
+    }
+    100% {
+        transform: rotate(360deg) translate(-500%);
+    }
+}
+
+/* --------------------------------- */
+
+/* dot-two animation for page loader */
+
+@keyframes dot-two-loader-animation {
+    0% {
+        transform: rotate(0deg) translate(-250%);
+    }
+    50% {
+        transform: rotate(-180deg) translate(-250%);
+    }
+    100% {
+        transform: rotate(-360deg) translate(-250%);
+    }
+}
+
+/* --------------------------------- */
+
+/* dot-three animation for page loader */
+
+@keyframes dot-three-loader-animation {
+    0% {
+        transform: rotate(0deg) translate(250%);
+    }
+    50% {
+        transform: rotate(-180deg) translate(250%);
+    }
+    100% {
+        transform: rotate(-360deg) translate(250%);
+    }
+}
+
+/* --------------------------------- */
+
+/* dot-four animation for page loader */
+
+@keyframes dot-four-loader-animation {
+    0% {
+        transform: rotate(0deg) translate(500%);
+    }
+    50% {
+        transform: rotate(180deg) translate(500%);
+    }
+    100% {
+        transform: rotate(360deg) translate(500%);
+    }
+}
+
+/* --------------------------------- */

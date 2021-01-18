@@ -1,0 +1,17 @@
+:root {
+    /* color variables */
+    --off-white: #fefefe;
+    --page-background: linear-gradient(45deg, rgba(6,8,38,1) 0%, rgba(19,24,133,1) 100%);
+
+    --loader-dot-one-color: #FF0065;
+    --loader-dot-two-color: #C5FF00;
+    --loader-dot-three-color: #05F2DB;
+    --loader-dot-four-color: #F29F05;
+    --loader-dot-five-color: #FFF200;
+    /* --------------- */
+
+    /* size variables */
+    --loader-animation-size: 200px;
+    --loader-dot-size: 10%;
+    /* --------------- */
+  }

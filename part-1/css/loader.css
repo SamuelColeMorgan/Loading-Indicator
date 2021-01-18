@@ -1,0 +1,52 @@
+.page-loader {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-loader-animation {
+    align-items: center;
+    background-color: aquamarine;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
+}
+
+.page-loader-dots {
+    background-color: black;
+    border-radius: 50%;
+    height: 10%;
+    position: relative;
+    width: 10%;
+}
+
+.page-loader-dot {
+    background-color: red;
+    border-radius: 50%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.page-loader-dot:first-child {
+    transform: translate(-500%);
+}
+
+.page-loader-dot:nth-child(2) {
+    transform: translate(-250%);
+}
+
+.page-loader-dot:nth-child(3) {
+    transform: translate(250%);
+}
+
+.page-loader-dot:nth-child(4) {
+    transform: translate(500%);
+}
+
+.page-loader-percentage {
+    color: #fefefe;
+    text-align: center;
+}
